@@ -1,62 +1,90 @@
-*{padding: 0;
+*{
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  background-color: floralwhite;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-}
-.sec-perfil{
-  text-align: center;
-}
-.foto-perfil{
-     margin: 3rem;
-     width: 8rem;
-     border: 1px rgb(255,255,255) solid;
-     border-radius: 10rem;
-}
-.sec-nome{
-  margin: 0 0 2rem 0;
-}
-.nome{ 
-   font-size: 3rem;
-}
-.cargo,.atividade{
-  font-size: 1.5rem;
-  margin: 0 0 0.85rem 0;
-  font-weight: bold;
+  background-color: #6dc8df;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
-.sec-btn{
-  margin: 0.5;
-  text-align: center;
-  background: #e6cdd4;
+.principal{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  background-color: #f3e1c6;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
 }
-.btn-link{
-  background: #9b4152;
-  border: none;
-  border-radius: 1.28rem;
-  color: #fffbff;
+
+.caixa-maior{
+  background-color: #6dc8df;
+  width: 95%;
+  max-width: 45rem;
+  opacity: 0.7;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 3em;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.titulo{
+  text-transform: uppercase;
+  background-color: #0b82cc;
+  margin-bottom:2rem;
+  text-align: center;
+  border-radius:30px;
+  margin-top: 0.5 rem;
+  margin-bottom: 1rem;
+  padding: 9px 40px;
+}
+
+.input-cidade ,.pesquisar{
+ border: none;
+ outline: none;
+ padding: 0.5rem;
+ border-radius: 2rem;
+ font-size: 1.5rem;
+ background-color: #ffffff;
+  width:20rem;
+  height: 3rem;
+  display: block;
+}
+
+.pesquisar{
+  margin-bottom: 2rem;
+  margin-top: 2rem;
   cursor: pointer;
-  display: flex;
-  font-size: 2.5rem;
-  height: 5rem;
-  width: 15rem;
-  margin: 2rem 15%;
-  text-align: center;
-  text-decoration: none;
-  align-items: center;
-  justify-content: center;
-  
+  outline: none;
+  background-color: #ffffff;}
+
+.pesquisar:hover{
+  background-color: #edbb7e
 }
-.btn-link:hover{
-  background: #b4707d;
+
+.pesquisar:active{
+  background: color #f3c894;;
+  color:#000a46;
+  opacity: 0.6;
+}
+.caixa-menor{
+margin-bottom: 1rem;
+}
+.cidade, .descricao, .umidade, .temp{
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 
 }
-.btn-link:active{
-  opacity: 50%;
-  transition: 0.3s;
+
+.img{
+width: 4rem;
+border-radius: 1rem;
+margin-bottom: 0.5rem;
+
 }
+
+.icon{
+  width: 9rem;
+}
+ 
