@@ -1,0 +1,62 @@
+*{padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: floralwhite;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.sec-perfil{
+  text-align: center;
+}
+.foto-perfil{
+     margin: 3rem;
+     width: 8rem;
+     border: 1px rgb(255,255,255) solid;
+     border-radius: 10rem;
+}
+.sec-nome{
+  margin: 0 0 2rem 0;
+}
+.nome{ 
+   font-size: 3rem;
+}
+.cargo,.atividade{
+  font-size: 1.5rem;
+  margin: 0 0 0.85rem 0;
+  font-weight: bold;
+}
+
+.sec-btn{
+  margin: 0.5;
+  text-align: center;
+  background: #e6cdd4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn-link{
+  background: #9b4152;
+  border: none;
+  border-radius: 1.28rem;
+  color: #fffbff;
+  cursor: pointer;
+  display: flex;
+  font-size: 2.5rem;
+  height: 5rem;
+  width: 15rem;
+  margin: 2rem 15%;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  
+}
+.btn-link:hover{
+  background: #b4707d;
+
+}
+.btn-link:active{
+  opacity: 50%;
+  transition: 0.3s;
+}
