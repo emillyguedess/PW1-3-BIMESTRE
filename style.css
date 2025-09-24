@@ -1,0 +1,40 @@
+*{  background-color: rgb(183, 227, 241);
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.titulo{
+    font-style: oblique;
+    font-size: medium;
+}
+.corpo{
+  background-color: rgb(111, 197, 255);
+  width: 90%;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin:0px;
+  border-radius: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 50rem;
+}
+a{
+    color: rgb(231, 152, 192);
+    margin-bottom: 1rem;
+    width: 12rem;
+    border-radius: 24rem;
+    background-color: rgb(242, 245, 230);
+}
+.My-Link, .Previsão-Tempo, .e{
+    background-color: rgb(248, 186, 227);
+    border-radius: 24rem;
+    margin-bottom: 1rem;
+    width: 15rem;
+}
